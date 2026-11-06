@@ -1,0 +1,96 @@
+RELATORIO DE VERIFICACAO DE PROXIES
+Gerado em: 2026-11-06 10:19:44
+Duracao: 05:23
+Timeout: 5s | Threads: 300 | Limite por lista: 300
+Alvos HTTPS: https://mega.nz/, https://g.api.mega.co.nz/cs
+Alvos HTTP: http://checkip.amazonaws.com/, http://icanhazip.com/, http://ifconfig.me/ip, http://api.ipify.org/?format=json
+Confirmacao HTTP: >= 2 alvos | IP local: 177.66.82.245
+
+FONTES
+  [ok] https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt -> 150 entradas
+  [ok] https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt -> 279 entradas
+  [ok] https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt -> 213 entradas
+  [ok] https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt -> 740 entradas
+  [ok] https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt -> 440 entradas
+  [ok] https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt -> 13 entradas
+  [ok] https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt -> 3231 entradas
+  [ok] https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt -> 6554 entradas
+  [ok] https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt -> 5023 entradas
+  Fontes ok: 9/9
+
+Candidatos unicos: 13260
+Validos: HTTP=115 | HTTPS(CONNECT)=104 | SOCKS5=13
+
+ARQUIVOS GERADOS
+  http.txt: 115 proxies
+  https.txt: 104 proxies
+  socks5.txt: 13 proxies
+  Backup dos arquivos antigos: E:\Downloads\megabasterd-8.61\megabasterd-8.61\proxy\proxy\backup_20261106_101944
+
+TOP 20 - http.txt (mais rapido primeiro)
+  143.246.138.227:80       277.9 KB/s  https=   --    http=  298ms
+  80.74.54.148:3128        159.8 KB/s  https=   --    http=  517ms
+  185.135.69.34:80         123.1 KB/s  https=   --    http=  582ms
+  206.245.131.160:80       118.4 KB/s  https=   --    http=  481ms
+  142.93.202.130:3128      111.3 KB/s  https=   --    http=  315ms
+  197.221.249.196:80       111.3 KB/s  https=   --    http=  714ms
+  34.43.46.91:80           101.3 KB/s  https=   --    http=  446ms
+  197.221.234.253:80        98.2 KB/s  https=   --    http=  707ms
+  197.221.240.247:80        97.4 KB/s  https=   --    http=  717ms
+  45.189.57.114:3129        96.4 KB/s  https= 1778ms  http=  477ms
+  197.221.240.246:80        95.1 KB/s  https=   --    http=  725ms
+  197.221.234.252:80        94.9 KB/s  https=   --    http=  718ms
+  41.220.16.213:80          94.1 KB/s  https=   --    http=  729ms
+  197.221.237.248:80        93.5 KB/s  https=   --    http=  718ms
+  197.221.240.178:80        93.4 KB/s  https=   --    http=  720ms
+  197.221.249.199:80        92.8 KB/s  https=   --    http=  720ms
+  97.74.87.226:80           92.5 KB/s  https=   --    http=  726ms
+  41.220.16.211:80          91.8 KB/s  https=   --    http=  726ms
+  197.221.234.149:80        91.7 KB/s  https=   --    http=  731ms
+  41.220.16.223:80          91.7 KB/s  https=   --    http=  726ms
+
+TOP 20 - https.txt (mais rapido primeiro)
+  204.12.176.194:8080      141.3 KB/s  https= 1234ms  http=   --  
+  81.85.4.216:8080          96.7 KB/s  https= 1229ms  http=   --  
+  45.189.57.114:3129        96.4 KB/s  https= 1778ms  http=  477ms
+  190.71.72.85:2525         96.1 KB/s  https= 1619ms  http=   --  
+  147.161.246.36:10729      87.8 KB/s  https= 1770ms  http=   --  
+  147.161.246.36:10825      85.2 KB/s  https= 1518ms  http=  731ms
+  176.111.37.216:39811      79.8 KB/s  https= 1385ms  http=  643ms
+  130.110.103.245:3128      79.6 KB/s  https= 1653ms  http=  681ms
+  194.55.234.58:8080        77.0 KB/s  https= 3222ms  http= 2206ms
+  3.96.141.200:1080         76.6 KB/s  https= 2180ms  http=   --  
+  176.111.37.5:39811        73.9 KB/s  https= 1549ms  http=  748ms
+  45.194.41.43:8080         72.9 KB/s  https= 2505ms  http=   --  
+  147.161.246.36:10184      71.5 KB/s  https= 1820ms  http=   --  
+  41.33.126.136:1976        62.6 KB/s  https= 2170ms  http=   --  
+  4.144.146.21:80           62.3 KB/s  https= 2638ms  http=  775ms
+  103.237.102.191:11111     61.3 KB/s  https= 1254ms  http=  498ms
+  201.71.2.41:999           51.0 KB/s  https= 1527ms  http=   --  
+  184.75.221.82:3118        51.0 KB/s  https= 1253ms  http=  430ms
+  147.161.246.35:10806      49.2 KB/s  https= 1469ms  http=  482ms
+  147.161.246.35:10381      48.3 KB/s  https= 1480ms  http=  483ms
+
+TOP 20 - socks5.txt (mais rapido primeiro)
+  45.61.188.134:44499      138.2 KB/s  https= 4412ms  http=   --  
+  213.219.210.45:1080       94.5 KB/s  https= 1882ms  http=   --  
+  195.13.182.211:8080       82.7 KB/s  https= 5592ms  http=   --  
+  193.25.215.182:22222      68.7 KB/s  https= 5619ms  http=   --  
+  157.20.27.117:1080        54.0 KB/s  https= 2991ms  http=   --  
+  101.36.104.239:10808      53.4 KB/s  https= 6112ms  http=   --  
+  138.124.66.203:1080       50.9 KB/s  https= 3901ms  http=   --  
+  212.77.75.25:1088         40.6 KB/s  https= 2803ms  http=   --  
+  103.189.63.149:53053      19.2 KB/s  https= 5978ms  http=   --  
+  101.36.104.46:10808        4.7 KB/s  https= 5084ms  http=   --  
+  46.17.43.219:7890          1.4 KB/s  https= 5130ms  http=   --  
+  195.135.255.98:1080       --        https= 1869ms  http=   --  
+  121.169.46.116:1090       --        https= 5885ms  http=   --  
+
+OBSERVACOES
+  - https.txt e a lista recomendada para o MegaBasterd (suporta CONNECT/HTTPS).
+  - http.txt contem proxies validos em HTTP puro; alguns podem nao suportar CONNECT.
+  - Cada proxy e validado em varios alvos para reduzir falsos negativos (429/bloqueios).
+  - Bordas de CDN que devolvem o IP do proprio cliente sao rejeitadas.
+  - socks5.txt contem apenas SOCKS5 validados no tunel HTTPS.
+  - A ordem prioriza velocidade medida (KB/s) e, em seguida, menor latencia.
+  - Execute novamente periodicamente; proxies gratuitos expiram rapido.
